@@ -28,7 +28,21 @@
     },
     "3.2.2": {
       "release_date": "2021-05-20",
-      "platforms": {}
+      "platforms": {
+        "windows-x86_64": {
+          "url": "https://github.com/dtamade/fpdev-bootstrap/releases/download/v3.2.2/bootstrap-3.2.2-windows-x86_64.zip",
+          "mirrors": [
+            "https://gitee.com/dtamade/fpdev-bootstrap/releases/download/v3.2.2/bootstrap-3.2.2-windows-x86_64.zip"
+          ],
+          "format": "zip",
+          "sha256": "aa9154a342ffa5d98d53c15f60a596944ea18bfffe3b8216aec7a356cd4043b6",
+          "size": 2141137,
+          "components": ["compiler"],
+          "layout": {
+            "executable": "ppcrossx64.exe"
+          }
+        }
+      }
     },
     "3.2.0": {
       "release_date": "2020-06-19",
