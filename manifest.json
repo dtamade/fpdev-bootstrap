@@ -41,6 +41,32 @@
           "layout": {
             "executable": "ppcrossx64.exe"
           }
+        },
+        "darwin-x86_64": {
+          "url": "https://github.com/dtamade/fpdev-bootstrap/releases/download/v3.2.2/bootstrap-3.2.2-darwin-x86_64.tar.gz",
+          "mirrors": [
+            "https://gitee.com/dtamade/fpdev-bootstrap/releases/download/v3.2.2/bootstrap-3.2.2-darwin-x86_64.tar.gz"
+          ],
+          "format": "tar.gz",
+          "sha256": "62f786b2e464a0a048f453bf0b4194f1b2cf4a9bbb250f4100f78a3c190d0dcc",
+          "size": 3534018,
+          "components": ["compiler"],
+          "layout": {
+            "executable": "bin/ppcx64"
+          }
+        },
+        "darwin-aarch64": {
+          "url": "https://github.com/dtamade/fpdev-bootstrap/releases/download/v3.2.2/bootstrap-3.2.2-darwin-aarch64.tar.gz",
+          "mirrors": [
+            "https://gitee.com/dtamade/fpdev-bootstrap/releases/download/v3.2.2/bootstrap-3.2.2-darwin-aarch64.tar.gz"
+          ],
+          "format": "tar.gz",
+          "sha256": "ba427f37e52983b3fad5d4c0736bffac19eaaba140062f47d000e832bf0e0c0b",
+          "size": 3422379,
+          "components": ["compiler"],
+          "layout": {
+            "executable": "bin/ppca64"
+          }
         }
       }
     },
