@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-01-14T00:00:00Z",
+  "updated_at": "2026-01-15T12:05:00Z",
   "repository": {
     "name": "fpdev-bootstrap",
     "type": "bootstrap",
@@ -72,7 +72,35 @@
     },
     "3.2.0": {
       "release_date": "2020-06-19",
-      "platforms": {}
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://github.com/dtamade/fpdev-bootstrap/releases/download/v3.2.0/bootstrap-3.2.0-linux-x86_64.tar.gz",
+          "mirrors": [],
+          "format": "tar.gz",
+          "sha256": "bddbc2932e95d8418c15cf654e225cdd86fbac38c680cb0331ebb3cf95201b15",
+          "size": 1433600,
+          "components": ["compiler"],
+          "layout": {
+            "executable": "bin/ppcx64"
+          }
+        }
+      }
+    },
+    "3.0.4": {
+      "release_date": "2017-11-27",
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://github.com/dtamade/fpdev-bootstrap/releases/download/v3.0.4/bootstrap-3.0.4-linux-x86_64.tar.gz",
+          "mirrors": [],
+          "format": "tar.gz",
+          "sha256": "64f1c3b6d8e1aac21ace375b4da254a01efd2bedf830a458f2904edab97b5df5",
+          "size": 1228800,
+          "components": ["compiler"],
+          "layout": {
+            "executable": "bin/ppcx64"
+          }
+        }
+      }
     }
   }
 }
